@@ -595,12 +595,12 @@
       "Root"
     ],
     [
-      "eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5",
-      "LoRa GNSS"
-    ],
-    [
       "54c42ff6-2a37-4707-b2a6-79c1a2f41127",
       "RaspberryPiZeroHAT"
+    ],
+    [
+      "eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5",
+      "LoRa GNSS"
     ]
   ],
   "text_variables": {}

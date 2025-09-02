@@ -5435,7 +5435,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b5453e6-d61a-427b-8181-df0fcb90efa2")
-		(property "Reference" "R8"
+		(property "Reference" "R15"
 			(at 127 76.2 90)
 			(effects
 				(font
@@ -5487,7 +5487,7 @@
 		(instances
 			(project "RP2040LoRaTracker"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
-					(reference "R8")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -6334,7 +6334,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b12b6405-d47f-4be5-bf43-b924d6978a0d")
-		(property "Reference" "R9"
+		(property "Reference" "R14"
 			(at 110.49 45.72 90)
 			(effects
 				(font
@@ -6386,7 +6386,7 @@
 		(instances
 			(project "RP2040LoRaTracker"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
-					(reference "R9")
+					(reference "R14")
 					(unit 1)
 				)
 			)

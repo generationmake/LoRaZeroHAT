@@ -494,7 +494,7 @@
 		)
 	)
 	(sheet
-		(at 215.9 151.13)
+		(at 215.9 114.3)
 		(size 22.86 10.16)
 		(fields_autoplaced yes)
 		(stroke
@@ -506,7 +506,7 @@
 		)
 		(uuid "54c42ff6-2a37-4707-b2a6-79c1a2f41127")
 		(property "Sheetname" "RaspberryPiZeroHAT"
-			(at 215.9 150.4184 0)
+			(at 215.9 113.5884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -515,7 +515,7 @@
 			)
 		)
 		(property "Sheetfile" "RaspberryPiZeroHAT.kicad_sch"
-			(at 215.9 161.8746 0)
+			(at 215.9 125.0446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -526,7 +526,7 @@
 		(instances
 			(project "LoRaZeroHAT"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8"
-					(page "4")
+					(page "2")
 				)
 			)
 		)
