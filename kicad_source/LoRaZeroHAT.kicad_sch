@@ -11,20 +11,20 @@
 		(company "generationmake")
 	)
 	(lib_symbols
-		(symbol "Mechanical:Fiducial"
-			(exclude_from_sim yes)
-			(in_bom no)
+		(symbol "generationmake:Label"
+			(exclude_from_sim no)
+			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "FID"
-				(at 0 5.08 0)
+			(property "Reference" "L"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Fiducial"
-				(at 0 3.175 0)
+			(property "Value" "Label"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -40,7 +40,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -49,7 +49,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Fiducial Marker"
+			(property "Description" "Label"
 				(at 0 0 0)
 				(effects
 					(font
@@ -58,87 +58,67 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "fiducial marker"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Fiducial*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Fiducial_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
+			(symbol "Label_0_1"
+				(rectangle
+					(start -2.54 1.27)
+					(end 2.54 -1.27)
 					(stroke
-						(width 0.508)
+						(width 0)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:Fiducial")
-		(at 25.4 156.21 0)
+		(lib_id "generationmake:Label")
+		(at 26.67 171.45 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2ffbac81-e234-4ab7-bb97-4425cec4f069")
-		(property "Reference" "FID1"
-			(at 27.94 154.9399 0)
+		(uuid "67500138-46fa-4373-8e87-912917f76306")
+		(property "Reference" "L5"
+			(at 32.4612 168.7576 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(justify left)
 			)
 		)
-		(property "Value" "Fiducial"
-			(at 27.94 157.4799 0)
+		(property "Value" "Label"
+			(at 32.4612 171.45 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(justify left)
 			)
 		)
-		(property "Footprint" "generationmake:generationmake_small_solder"
-			(at 25.4 156.21 0)
+		(property "Footprint" "Symbol:OSHW-Symbol_6.7x6mm_SilkScreen"
+			(at 32.4612 174.1424 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(justify left)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 25.4 156.21 0)
+		(property "Datasheet" ""
+			(at 26.67 171.45 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
-		(property "Description" "Fiducial Marker"
-			(at 25.4 156.21 0)
+		(property "Description" ""
+			(at 26.67 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -147,62 +127,60 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "LoRaZeroHAT"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8"
-					(reference "FID1")
+					(reference "L5")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:Fiducial")
-		(at 25.4 162.56 0)
+		(lib_id "generationmake:Label")
+		(at 26.67 180.34 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "da369f56-25be-4607-91d3-2f84ae2ef5e8")
-		(property "Reference" "FID2"
-			(at 27.94 161.2899 0)
+		(uuid "83b41c4f-16de-437f-993c-50a41512b0af")
+		(property "Reference" "L6"
+			(at 32.4612 177.6476 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(justify left)
 			)
 		)
-		(property "Value" "Fiducial"
-			(at 27.94 163.8299 0)
+		(property "Value" "Label"
+			(at 32.4612 180.34 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(justify left)
 			)
 		)
-		(property "Footprint" "generationmake:generationmake_logo"
-			(at 25.4 162.56 0)
+		(property "Footprint" "generationmake:generationmake_small_solder"
+			(at 32.4612 183.0324 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
 				(justify left)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 25.4 162.56 0)
+		(property "Datasheet" ""
+			(at 26.67 180.34 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
-				(hide yes)
 			)
 		)
-		(property "Description" "Fiducial Marker"
-			(at 25.4 162.56 0)
+		(property "Description" ""
+			(at 26.67 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -211,9 +189,71 @@
 			)
 		)
 		(instances
-			(project "RP2040LoRaTracker"
+			(project "LoRaZeroHAT"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8"
-					(reference "FID2")
+					(reference "L6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "generationmake:Label")
+		(at 26.67 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "e834b816-f2c9-4423-b42b-6f0c5e068bf5")
+		(property "Reference" "L7"
+			(at 32.4612 186.5376 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Label"
+			(at 32.4612 189.23 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "generationmake:generationmake_logo"
+			(at 32.4612 191.9224 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 189.23 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 26.67 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "LoRaZeroHAT"
+				(path "/143f7a5b-9016-4d2c-b741-f535648590f8"
+					(reference "L7")
 					(unit 1)
 				)
 			)

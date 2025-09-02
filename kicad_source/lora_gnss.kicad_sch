@@ -3465,6 +3465,16 @@
 		)
 		(uuid "5ec82ca4-8e51-4a8f-a9ef-66ae3adaa213")
 	)
+	(text "DIO0 is configured as interrupt"
+		(exclude_from_sim no)
+		(at 251.714 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7206b4a2-7feb-4eca-87c0-afd6e144444d")
+	)
 	(text "Bosch BME280 environmental sensor"
 		(exclude_from_sim no)
 		(at 255.778 107.188 0)
@@ -3665,7 +3675,7 @@
 		)
 		(uuid "b011811f-6b96-4499-ac61-ccbce09f970c")
 	)
-	(label "LORA_DIO0"
+	(label "LORA_INT"
 		(at 220.98 71.12 0)
 		(effects
 			(font
@@ -3759,7 +3769,7 @@
 			)
 		)
 	)
-	(global_label "LORA_DIO0"
+	(global_label "LORA_INT"
 		(shape output)
 		(at 234.95 71.12 0)
 		(fields_autoplaced yes)
@@ -3771,7 +3781,7 @@
 		)
 		(uuid "6f11e030-623c-4a3f-9ee5-b25828de5aa6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.0348 71.12 0)
+			(at 246.5229 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -74,7 +74,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "RP2040LoRaTracker.kicad_prl",
+    "filename": "LoRaZeroHAT.kicad_prl",
     "version": 3
   },
   "project": {
