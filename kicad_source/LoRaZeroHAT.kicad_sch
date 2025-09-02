@@ -5,8 +5,8 @@
 	(uuid "143f7a5b-9016-4d2c-b741-f535648590f8")
 	(paper "A4")
 	(title_block
-		(title "RP2040LoRaTracker")
-		(date "2025-05-04")
+		(title "LoRaZeroHAT")
+		(date "2025-09-02")
 		(rev "0.1")
 		(company "generationmake")
 	)
@@ -494,7 +494,7 @@
 		)
 	)
 	(sheet
-		(at 215.9 114.3)
+		(at 215.9 151.13)
 		(size 22.86 10.16)
 		(fields_autoplaced yes)
 		(stroke
@@ -504,9 +504,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "910e63e5-4a03-4b20-a38f-348d4b59ea4e")
-		(property "Sheetname" "RP2040"
-			(at 215.9 113.5884 0)
+		(uuid "54c42ff6-2a37-4707-b2a6-79c1a2f41127")
+		(property "Sheetname" "RaspberryPiZeroHAT"
+			(at 215.9 150.4184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -514,8 +514,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "RP2040.kicad_sch"
-			(at 215.9 125.0446 0)
+		(property "Sheetfile" "RaspberryPiZeroHAT.kicad_sch"
+			(at 215.9 161.8746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -524,9 +524,9 @@
 			)
 		)
 		(instances
-			(project "RP2040LoRaTracker"
+			(project "LoRaZeroHAT"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8"
-					(page "2")
+					(page "4")
 				)
 			)
 		)
@@ -562,7 +562,7 @@
 			)
 		)
 		(instances
-			(project "RP2040LoRaTracker"
+			(project "LoRaZeroHAT"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8"
 					(page "3")
 				)

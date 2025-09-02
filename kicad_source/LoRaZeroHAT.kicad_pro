@@ -446,7 +446,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "RP2040LoRaTracker.kicad_pro",
+    "filename": "LoRaZeroHAT.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -595,12 +595,12 @@
       "Root"
     ],
     [
-      "910e63e5-4a03-4b20-a38f-348d4b59ea4e",
-      "RP2040"
-    ],
-    [
       "eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5",
       "LoRa GNSS"
+    ],
+    [
+      "54c42ff6-2a37-4707-b2a6-79c1a2f41127",
+      "RaspberryPiZeroHAT"
     ]
   ],
   "text_variables": {}
