@@ -3955,7 +3955,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "027bf682-a76c-4e2b-a9b1-ec7b6951bc00")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 139.6365 74.93 0)
 			(effects
 				(font
@@ -4007,7 +4007,7 @@
 		(instances
 			(project "RP2040LoRaTracker"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -4022,7 +4022,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "06cc7e4e-8468-44d0-bf48-37c532c71d96")
-		(property "Reference" "#PWR5"
+		(property "Reference" "#PWR20"
 			(at 133.35 132.08 0)
 			(effects
 				(font
@@ -4070,7 +4070,7 @@
 		(instances
 			(project "LoRaZeroHAT"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
-					(reference "#PWR5")
+					(reference "#PWR20")
 					(unit 1)
 				)
 			)
@@ -4086,7 +4086,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0829bf5e-a9c9-4552-8d5d-a66edc9e58cd")
-		(property "Reference" "L1"
+		(property "Reference" "L4"
 			(at 116.84 58.4199 0)
 			(effects
 				(font
@@ -4140,7 +4140,7 @@
 		(instances
 			(project ""
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
-					(reference "L1")
+					(reference "L4")
 					(unit 1)
 				)
 			)
@@ -4156,7 +4156,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0cab1d74-87f8-4b44-b163-1254d3f81ee4")
-		(property "Reference" "#PWR67"
+		(property "Reference" "#PWR36"
 			(at 224.79 151.13 0)
 			(effects
 				(font
@@ -4206,7 +4206,7 @@
 		(instances
 			(project "RP2040LoRaTracker"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
-					(reference "#PWR67")
+					(reference "#PWR36")
 					(unit 1)
 				)
 			)
@@ -4222,7 +4222,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c433be6-17f7-4c74-9ad8-e3d011fa8b38")
-		(property "Reference" "#PWR2"
+		(property "Reference" "#PWR17"
 			(at 87.63 105.41 0)
 			(effects
 				(font
@@ -4272,7 +4272,7 @@
 		(instances
 			(project ""
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
-					(reference "#PWR2")
+					(reference "#PWR17")
 					(unit 1)
 				)
 			)
@@ -4288,7 +4288,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28e6b4ee-2157-43cb-be67-da40ce423847")
-		(property "Reference" "#PWR65"
+		(property "Reference" "#PWR26"
 			(at 194.31 140.97 0)
 			(effects
 				(font
@@ -4338,7 +4338,7 @@
 		(instances
 			(project "RP2040LoRaTracker"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
-					(reference "#PWR65")
+					(reference "#PWR26")
 					(unit 1)
 				)
 			)
@@ -4354,7 +4354,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2cfd6043-3bf7-4efe-a257-0f38fd64d408")
-		(property "Reference" "#PWR60"
+		(property "Reference" "#PWR8"
 			(at 19.05 119.38 0)
 			(effects
 				(font
@@ -4404,7 +4404,7 @@
 		(instances
 			(project "RP2040LoRaTracker"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
-					(reference "#PWR60")
+					(reference "#PWR8")
 					(unit 1)
 				)
 			)
@@ -4420,7 +4420,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d3fcc36-5c5a-4d14-92b9-2583832cc623")
-		(property "Reference" "#PWR59"
+		(property "Reference" "#PWR10"
 			(at 31.75 124.46 0)
 			(effects
 				(font
@@ -4470,7 +4470,7 @@
 		(instances
 			(project "RP2040LoRaTracker"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
-					(reference "#PWR59")
+					(reference "#PWR10")
 					(unit 1)
 				)
 			)
@@ -4485,7 +4485,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2f371355-83c5-4c4b-a6f8-e2f7efcc0499")
-		(property "Reference" "#PWR8"
+		(property "Reference" "#PWR12"
 			(at 54.61 30.48 0)
 			(effects
 				(font
@@ -4533,7 +4533,7 @@
 		(instances
 			(project "LoRaZeroHAT"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
-					(reference "#PWR8")
+					(reference "#PWR12")
 					(unit 1)
 				)
 			)
@@ -4549,7 +4549,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35d57cd9-bd10-4e22-ab50-56030f2d0fad")
-		(property "Reference" "#PWR52"
+		(property "Reference" "#PWR32"
 			(at 209.55 45.72 0)
 			(effects
 				(font
@@ -4599,7 +4599,7 @@
 		(instances
 			(project "RP2040LoRaTracker"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
-					(reference "#PWR52")
+					(reference "#PWR32")
 					(unit 1)
 				)
 			)
@@ -4614,7 +4614,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3f2f8d29-d75b-4997-9970-d77038d40bd5")
-		(property "Reference" "#PWR6"
+		(property "Reference" "#PWR22"
 			(at 140.97 132.08 0)
 			(effects
 				(font
@@ -4662,7 +4662,7 @@
 		(instances
 			(project "LoRaZeroHAT"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
-					(reference "#PWR6")
+					(reference "#PWR22")
 					(unit 1)
 				)
 			)
@@ -4678,7 +4678,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a9f510c-de5a-4583-81b2-3125d1712ddd")
-		(property "Reference" "R11"
+		(property "Reference" "R13"
 			(at 110.49 87.6299 0)
 			(effects
 				(font
@@ -4732,7 +4732,7 @@
 		(instances
 			(project "RP2040LoRaTracker"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
-					(reference "R11")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -4748,7 +4748,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b440f0a-0b05-4f79-8526-d9c22ccfce98")
-		(property "Reference" "R10"
+		(property "Reference" "R12"
 			(at 49.53 83.82 90)
 			(effects
 				(font
@@ -4800,7 +4800,7 @@
 		(instances
 			(project "RP2040LoRaTracker"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
-					(reference "R10")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -4816,7 +4816,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b49b99f-1566-4db9-b47f-9ec395333b4e")
-		(property "Reference" "U5"
+		(property "Reference" "U1"
 			(at 33.9441 97.79 0)
 			(effects
 				(font
@@ -4888,7 +4888,7 @@
 		(instances
 			(project ""
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
-					(reference "U5")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -4904,7 +4904,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d0e1f17-032d-44af-bfba-5753bc4f272b")
-		(property "Reference" "#PWR61"
+		(property "Reference" "#PWR11"
 			(at 44.45 119.38 0)
 			(effects
 				(font
@@ -4954,7 +4954,7 @@
 		(instances
 			(project "RP2040LoRaTracker"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
-					(reference "#PWR61")
+					(reference "#PWR11")
 					(unit 1)
 				)
 			)
@@ -4970,7 +4970,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "524adb69-30cf-43cc-8304-64b2a779bd88")
-		(property "Reference" "#PWR3"
+		(property "Reference" "#PWR30"
 			(at 205.74 100.33 0)
 			(effects
 				(font
@@ -5020,7 +5020,7 @@
 		(instances
 			(project "RP2040LoRaTracker"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
-					(reference "#PWR3")
+					(reference "#PWR30")
 					(unit 1)
 				)
 			)
@@ -5036,7 +5036,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c6af57a-2da1-4e29-98b1-99645ad250db")
-		(property "Reference" "AE1"
+		(property "Reference" "AE2"
 			(at 248.92 51.4349 0)
 			(effects
 				(font
@@ -5090,7 +5090,7 @@
 		(instances
 			(project ""
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
-					(reference "AE1")
+					(reference "AE2")
 					(unit 1)
 				)
 			)
@@ -5106,7 +5106,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6233581e-e280-45bc-b1e7-d74caf6a95fc")
-		(property "Reference" "#PWR70"
+		(property "Reference" "#PWR37"
 			(at 240.03 144.78 0)
 			(effects
 				(font
@@ -5156,7 +5156,7 @@
 		(instances
 			(project "RP2040LoRaTracker"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
-					(reference "#PWR70")
+					(reference "#PWR37")
 					(unit 1)
 				)
 			)
@@ -5172,7 +5172,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b5453e6-d61a-427b-8181-df0fcb90efa2")
-		(property "Reference" "R15"
+		(property "Reference" "R16"
 			(at 127 76.2 90)
 			(effects
 				(font
@@ -5224,7 +5224,7 @@
 		(instances
 			(project "RP2040LoRaTracker"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
-					(reference "R15")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -5240,7 +5240,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c632dbd-8556-464d-996d-30add4f6a642")
-		(property "Reference" "#PWR46"
+		(property "Reference" "#PWR13"
 			(at 54.61 40.64 0)
 			(effects
 				(font
@@ -5290,7 +5290,7 @@
 		(instances
 			(project "RP2040LoRaTracker"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
-					(reference "#PWR46")
+					(reference "#PWR13")
 					(unit 1)
 				)
 			)
@@ -5306,7 +5306,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "810d08d8-184f-44b8-9c59-414154ed0e23")
-		(property "Reference" "C19"
+		(property "Reference" "C5"
 			(at 212.09 34.2962 0)
 			(effects
 				(font
@@ -5360,7 +5360,7 @@
 		(instances
 			(project "RP2040LoRaTracker"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
-					(reference "C19")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -5376,7 +5376,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82b1131b-1ec2-44de-8591-42466daf56d6")
-		(property "Reference" "U6"
+		(property "Reference" "U4"
 			(at 210.82 126.9999 0)
 			(effects
 				(font
@@ -5448,7 +5448,7 @@
 		(instances
 			(project ""
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
-					(reference "U6")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -5464,7 +5464,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a4c5d33-329f-4d86-9b21-f9622da70be5")
-		(property "Reference" "#PWR56"
+		(property "Reference" "#PWR24"
 			(at 144.78 90.17 0)
 			(effects
 				(font
@@ -5514,7 +5514,7 @@
 		(instances
 			(project "RP2040LoRaTracker"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
-					(reference "#PWR56")
+					(reference "#PWR24")
 					(unit 1)
 				)
 			)
@@ -5529,7 +5529,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "95b6266c-bfec-4e80-9f4a-267b0f5dd964")
-		(property "Reference" "#PWR1"
+		(property "Reference" "#PWR19"
 			(at 125.73 132.08 0)
 			(effects
 				(font
@@ -5577,7 +5577,7 @@
 		(instances
 			(project "LoRaZeroHAT"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
-					(reference "#PWR1")
+					(reference "#PWR19")
 					(unit 1)
 				)
 			)
@@ -5592,7 +5592,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9c792135-73a6-4528-a4b7-724dee1b0859")
-		(property "Reference" "#PWR18"
+		(property "Reference" "#PWR9"
 			(at 31.75 101.6 0)
 			(effects
 				(font
@@ -5640,7 +5640,7 @@
 		(instances
 			(project "LoRaZeroHAT"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
-					(reference "#PWR18")
+					(reference "#PWR9")
 					(unit 1)
 				)
 			)
@@ -5656,7 +5656,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e428b60-cc76-4e5a-a28f-3e9b27f022da")
-		(property "Reference" "#PWR53"
+		(property "Reference" "#PWR39"
 			(at 247.65 66.04 0)
 			(effects
 				(font
@@ -5706,7 +5706,7 @@
 		(instances
 			(project "RP2040LoRaTracker"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
-					(reference "#PWR53")
+					(reference "#PWR39")
 					(unit 1)
 				)
 			)
@@ -5721,7 +5721,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a41dc5a2-7f2a-4107-9bb2-8a91df4be910")
-		(property "Reference" "#PWR14"
+		(property "Reference" "#PWR25"
 			(at 194.31 130.81 0)
 			(effects
 				(font
@@ -5769,7 +5769,7 @@
 		(instances
 			(project "LoRaZeroHAT"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
-					(reference "#PWR14")
+					(reference "#PWR25")
 					(unit 1)
 				)
 			)
@@ -5785,7 +5785,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4f51127-f13a-4869-86ee-e6b7d3036c13")
-		(property "Reference" "#PWR50"
+		(property "Reference" "#PWR28"
 			(at 195.58 45.72 0)
 			(effects
 				(font
@@ -5835,7 +5835,7 @@
 		(instances
 			(project "RP2040LoRaTracker"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
-					(reference "#PWR50")
+					(reference "#PWR28")
 					(unit 1)
 				)
 			)
@@ -5929,7 +5929,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a89a1a74-6369-40f6-bb89-01328decbafd")
-		(property "Reference" "#PWR13"
+		(property "Reference" "#PWR31"
 			(at 209.55 35.56 0)
 			(effects
 				(font
@@ -5977,7 +5977,7 @@
 		(instances
 			(project "LoRaZeroHAT"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
-					(reference "#PWR13")
+					(reference "#PWR31")
 					(unit 1)
 				)
 			)
@@ -6061,7 +6061,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b72da9cd-6739-480d-b79e-5e1b61bbba67")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 89.8241 96.52 0)
 			(effects
 				(font
@@ -6181,7 +6181,7 @@
 		(instances
 			(project ""
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
-					(reference "U3")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -6197,7 +6197,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b84b0228-fe62-4d03-b62b-23384857dfe6")
-		(property "Reference" "#PWR66"
+		(property "Reference" "#PWR34"
 			(at 219.71 151.13 0)
 			(effects
 				(font
@@ -6247,7 +6247,7 @@
 		(instances
 			(project "RP2040LoRaTracker"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
-					(reference "#PWR66")
+					(reference "#PWR34")
 					(unit 1)
 				)
 			)
@@ -6262,7 +6262,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bde19c85-f4a8-4abd-b0f1-42751867c1f0")
-		(property "Reference" "#PWR15"
+		(property "Reference" "#PWR33"
 			(at 219.71 115.57 0)
 			(effects
 				(font
@@ -6310,7 +6310,7 @@
 		(instances
 			(project "LoRaZeroHAT"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
-					(reference "#PWR15")
+					(reference "#PWR33")
 					(unit 1)
 				)
 			)
@@ -6326,7 +6326,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c17da8f4-e1b0-4773-b7cb-ed1cc4447503")
-		(property "Reference" "C17"
+		(property "Reference" "C2"
 			(at 69.85 29.2162 0)
 			(effects
 				(font
@@ -6380,7 +6380,7 @@
 		(instances
 			(project "RP2040LoRaTracker"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
-					(reference "C17")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -6396,7 +6396,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c42acfec-5da0-42d7-b17c-50941275b0b5")
-		(property "Reference" "C20"
+		(property "Reference" "C3"
 			(at 196.85 129.5462 0)
 			(effects
 				(font
@@ -6450,7 +6450,7 @@
 		(instances
 			(project "RP2040LoRaTracker"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
-					(reference "C20")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -6466,7 +6466,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c47a9295-2856-4e1e-8492-c232a1445e41")
-		(property "Reference" "#PWR7"
+		(property "Reference" "#PWR23"
 			(at 143.51 147.32 0)
 			(effects
 				(font
@@ -6516,7 +6516,7 @@
 		(instances
 			(project "LoRaZeroHAT"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
-					(reference "#PWR7")
+					(reference "#PWR23")
 					(unit 1)
 				)
 			)
@@ -6532,7 +6532,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9763f76-68f1-448e-88bd-5143166e94d3")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 207.9341 58.42 0)
 			(effects
 				(font
@@ -6628,7 +6628,7 @@
 		(instances
 			(project ""
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -6643,7 +6643,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d050568b-9cca-4016-9e3a-ce9d6c26709e")
-		(property "Reference" "#PWR9"
+		(property "Reference" "#PWR14"
 			(at 67.31 30.48 0)
 			(effects
 				(font
@@ -6691,7 +6691,7 @@
 		(instances
 			(project "LoRaZeroHAT"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
-					(reference "#PWR9")
+					(reference "#PWR14")
 					(unit 1)
 				)
 			)
@@ -6706,7 +6706,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d1a9b8e8-356e-4bc8-a8c9-547c740f28fb")
-		(property "Reference" "#PWR12"
+		(property "Reference" "#PWR27"
 			(at 195.58 35.56 0)
 			(effects
 				(font
@@ -6754,7 +6754,7 @@
 		(instances
 			(project "LoRaZeroHAT"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
-					(reference "#PWR12")
+					(reference "#PWR27")
 					(unit 1)
 				)
 			)
@@ -6770,7 +6770,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7ed4c0a-6bb3-4a03-9821-e0c954285582")
-		(property "Reference" "#PWR62"
+		(property "Reference" "#PWR21"
 			(at 139.7 69.85 0)
 			(effects
 				(font
@@ -6820,7 +6820,7 @@
 		(instances
 			(project "RP2040LoRaTracker"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
-					(reference "#PWR62")
+					(reference "#PWR21")
 					(unit 1)
 				)
 			)
@@ -6836,7 +6836,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ddc8b2f2-e8e2-4ef1-ac21-93cacdfc13c7")
-		(property "Reference" "R12"
+		(property "Reference" "R17"
 			(at 135.89 130.8099 0)
 			(effects
 				(font
@@ -6890,7 +6890,7 @@
 		(instances
 			(project "LoRaZeroHAT"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
-					(reference "R12")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -6905,7 +6905,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e0aedd54-b48a-408a-8a2e-1ae318d7537d")
-		(property "Reference" "#PWR20"
+		(property "Reference" "#PWR16"
 			(at 82.55 52.07 0)
 			(effects
 				(font
@@ -6953,7 +6953,7 @@
 		(instances
 			(project "LoRaZeroHAT"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
-					(reference "#PWR20")
+					(reference "#PWR16")
 					(unit 1)
 				)
 			)
@@ -6969,7 +6969,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e909d8b7-1676-4df2-a182-bb6903913bad")
-		(property "Reference" "AE2"
+		(property "Reference" "AE1"
 			(at 140.97 53.9749 0)
 			(effects
 				(font
@@ -7023,7 +7023,7 @@
 		(instances
 			(project "RP2040LoRaTracker"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
-					(reference "AE2")
+					(reference "AE1")
 					(unit 1)
 				)
 			)
@@ -7038,7 +7038,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ef368d4c-4d82-43b0-ac5c-a8c7c88146e9")
-		(property "Reference" "#PWR17"
+		(property "Reference" "#PWR38"
 			(at 243.84 121.92 0)
 			(effects
 				(font
@@ -7086,7 +7086,7 @@
 		(instances
 			(project "LoRaZeroHAT"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
-					(reference "#PWR17")
+					(reference "#PWR38")
 					(unit 1)
 				)
 			)
@@ -7102,7 +7102,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f245987d-6e95-48cb-843c-009972478c62")
-		(property "Reference" "C18"
+		(property "Reference" "C4"
 			(at 198.12 34.2962 0)
 			(effects
 				(font
@@ -7156,7 +7156,7 @@
 		(instances
 			(project "RP2040LoRaTracker"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
-					(reference "C18")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -7172,7 +7172,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f456e3ae-612e-4a55-9194-2606cc67797c")
-		(property "Reference" "C16"
+		(property "Reference" "C1"
 			(at 57.15 29.2162 0)
 			(effects
 				(font
@@ -7226,7 +7226,7 @@
 		(instances
 			(project "RP2040LoRaTracker"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
-					(reference "C16")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -7242,7 +7242,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f51be601-7d58-4972-966a-e6735d173d26")
-		(property "Reference" "#PWR63"
+		(property "Reference" "#PWR18"
 			(at 107.95 100.33 0)
 			(effects
 				(font
@@ -7292,7 +7292,7 @@
 		(instances
 			(project "RP2040LoRaTracker"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
-					(reference "#PWR63")
+					(reference "#PWR18")
 					(unit 1)
 				)
 			)
@@ -7307,7 +7307,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f67d9812-b092-4d0f-92b5-279ae1624173")
-		(property "Reference" "#PWR16"
+		(property "Reference" "#PWR35"
 			(at 224.79 115.57 0)
 			(effects
 				(font
@@ -7355,7 +7355,7 @@
 		(instances
 			(project "LoRaZeroHAT"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
-					(reference "#PWR16")
+					(reference "#PWR35")
 					(unit 1)
 				)
 			)
@@ -7371,7 +7371,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fafec22a-70ab-4a05-9c4c-99c2d1e8f325")
-		(property "Reference" "R4"
+		(property "Reference" "R15"
 			(at 128.27 130.8099 0)
 			(effects
 				(font
@@ -7425,7 +7425,7 @@
 		(instances
 			(project "LoRaZeroHAT"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
-					(reference "R4")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -7441,7 +7441,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc1251f2-c126-47f1-ac61-ef6afa44fae7")
-		(property "Reference" "#PWR48"
+		(property "Reference" "#PWR15"
 			(at 67.31 40.64 0)
 			(effects
 				(font
@@ -7491,7 +7491,7 @@
 		(instances
 			(project "RP2040LoRaTracker"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
-					(reference "#PWR48")
+					(reference "#PWR15")
 					(unit 1)
 				)
 			)
@@ -7506,7 +7506,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fd0f4912-3246-4d5f-aa95-e61e7ea8e3d7")
-		(property "Reference" "#PWR4"
+		(property "Reference" "#PWR29"
 			(at 205.74 62.23 0)
 			(effects
 				(font
@@ -7554,7 +7554,7 @@
 		(instances
 			(project "LoRaZeroHAT"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
-					(reference "#PWR4")
+					(reference "#PWR29")
 					(unit 1)
 				)
 			)

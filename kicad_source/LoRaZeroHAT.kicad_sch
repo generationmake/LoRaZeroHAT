@@ -82,7 +82,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "67500138-46fa-4373-8e87-912917f76306")
-		(property "Reference" "L5"
+		(property "Reference" "L1"
 			(at 32.4612 168.7576 0)
 			(effects
 				(font
@@ -129,7 +129,7 @@
 		(instances
 			(project "LoRaZeroHAT"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8"
-					(reference "L5")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -144,7 +144,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "83b41c4f-16de-437f-993c-50a41512b0af")
-		(property "Reference" "L6"
+		(property "Reference" "L2"
 			(at 32.4612 177.6476 0)
 			(effects
 				(font
@@ -191,7 +191,7 @@
 		(instances
 			(project "LoRaZeroHAT"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8"
-					(reference "L6")
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -206,7 +206,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e834b816-f2c9-4423-b42b-6f0c5e068bf5")
-		(property "Reference" "L7"
+		(property "Reference" "L3"
 			(at 32.4612 186.5376 0)
 			(effects
 				(font
@@ -253,7 +253,7 @@
 		(instances
 			(project "LoRaZeroHAT"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8"
-					(reference "L7")
+					(reference "L3")
 					(unit 1)
 				)
 			)
