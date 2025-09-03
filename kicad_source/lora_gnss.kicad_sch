@@ -11,6 +11,108 @@
 		(company "generationmake")
 	)
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic_MountingPin:Conn_01x04_MountingPin"
 			(pin_names
 				(offset 1.016) hide)
@@ -2608,10 +2710,6 @@
 		(uuid "dc3b6591-786d-4831-899a-601ee82acab8")
 	)
 	(no_connect
-		(at 215.9 73.66)
-		(uuid "10706275-99d2-4c6f-ba8e-04f750df3475")
-	)
-	(no_connect
 		(at 69.85 58.42)
 		(uuid "1a71f5a4-5d77-444c-a95e-849c9ec29760")
 	)
@@ -2620,16 +2718,8 @@
 		(uuid "24065e71-fc37-4310-82c7-944c3fb662a3")
 	)
 	(no_connect
-		(at 215.9 83.82)
-		(uuid "28e34837-8bb2-4824-8bb0-5b94819fd7be")
-	)
-	(no_connect
 		(at 85.09 50.8)
 		(uuid "327865c1-e052-4587-90c3-369e9d2df93d")
-	)
-	(no_connect
-		(at 215.9 76.2)
-		(uuid "3bd65415-ed03-4be1-a5b4-b8793e6b1527")
 	)
 	(no_connect
 		(at 87.63 50.8)
@@ -2638,14 +2728,6 @@
 	(no_connect
 		(at 69.85 60.96)
 		(uuid "56b9099e-4392-4b56-8725-dbb4047d291f")
-	)
-	(no_connect
-		(at 215.9 81.28)
-		(uuid "9a484175-74b4-46d5-8942-92e3f2c16094")
-	)
-	(no_connect
-		(at 215.9 78.74)
-		(uuid "a3b6cec9-3965-4923-b604-c7a88c859249")
 	)
 	(no_connect
 		(at 69.85 81.28)
@@ -2684,6 +2766,16 @@
 			(type default)
 		)
 		(uuid "0f76c658-4ff3-4b7b-972e-051231e35612")
+	)
+	(wire
+		(pts
+			(xy 215.9 83.82) (xy 229.87 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1254b74f-e32f-4e8b-ac34-b3716ecb7bbd")
 	)
 	(wire
 		(pts
@@ -2747,6 +2839,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 76.2) (xy 229.87 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cff9c19-9eb0-4d2f-93de-85f897f23351")
+	)
+	(wire
+		(pts
 			(xy 67.31 26.67) (xy 67.31 27.94)
 		)
 		(stroke
@@ -2774,6 +2876,16 @@
 			(type default)
 		)
 		(uuid "30e7034d-9419-4eb5-8654-46e593e390a4")
+	)
+	(wire
+		(pts
+			(xy 215.9 81.28) (xy 229.87 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "339876d7-df98-47d5-ace7-b3bc364da334")
 	)
 	(wire
 		(pts
@@ -3167,6 +3279,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 78.74) (xy 229.87 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b937409a-bec6-40ff-8af7-7f39ff1b0157")
+	)
+	(wire
+		(pts
 			(xy 125.73 134.62) (xy 125.73 135.89)
 		)
 		(stroke
@@ -3427,6 +3549,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 73.66) (xy 229.87 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbeeec95-689b-4f51-b2d7-c257112d82b0")
+	)
+	(wire
+		(pts
 			(xy 41.91 105.41) (xy 60.96 105.41)
 		)
 		(stroke
@@ -3467,7 +3599,7 @@
 	)
 	(text "DIO0 is configured as interrupt"
 		(exclude_from_sim no)
-		(at 251.714 76.2 0)
+		(at 261.112 75.438 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3505,6 +3637,16 @@
 		)
 		(uuid "04281c10-d0de-44a8-b4ca-71587acae309")
 	)
+	(label "LORA_DIO5"
+		(at 218.44 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0a0fb170-2937-400f-a5f4-c2b0f6d63efa")
+	)
 	(label "SPI_SCK"
 		(at 185.42 76.2 0)
 		(effects
@@ -3524,6 +3666,16 @@
 			(justify left bottom)
 		)
 		(uuid "0d05c562-2d88-45f9-ab1b-8d9f4201fdb3")
+	)
+	(label "LORA_DIO2"
+		(at 218.44 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0e0d12f5-3ecb-4230-87e9-751206ab0f1d")
 	)
 	(label "TIMEPULSE"
 		(at 111.76 81.28 0)
@@ -3576,7 +3728,7 @@
 		(uuid "46d160ee-1aeb-45dc-a89e-ee78e87bd6a4")
 	)
 	(label "LORA_ANTENNA"
-		(at 220.98 66.04 0)
+		(at 218.44 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3594,6 +3746,16 @@
 			(justify left bottom)
 		)
 		(uuid "5aea1f26-807a-4ab8-a4ed-739a33c2d022")
+	)
+	(label "LORA_DIO4"
+		(at 218.44 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c060d60-3a49-458d-852c-2a38f2a620e7")
 	)
 	(label "I2C_SCL"
 		(at 114.3 138.43 0)
@@ -3655,6 +3817,16 @@
 		)
 		(uuid "93559c56-184b-43e9-915c-f245e78d1d65")
 	)
+	(label "LORA_DIO1"
+		(at 218.44 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9a88a304-590a-442b-b64a-a4e6fc06204f")
+	)
 	(label "NEO_RESET"
 		(at 55.88 88.9 0)
 		(effects
@@ -3676,7 +3848,7 @@
 		(uuid "b011811f-6b96-4499-ac61-ccbce09f970c")
 	)
 	(label "LORA_INT"
-		(at 220.98 71.12 0)
+		(at 218.44 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3684,6 +3856,16 @@
 			(justify left bottom)
 		)
 		(uuid "b2f99539-4fba-4c6a-b863-b401429aff1b")
+	)
+	(label "LORA_DIO3"
+		(at 218.44 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e3686028-63cb-4b13-b22d-9726fca2aac5")
 	)
 	(label "I2C_SDA"
 		(at 248.92 130.81 0)
@@ -5584,6 +5766,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 229.87 83.82 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9bd88762-bd81-4d3d-b7ef-62266e2c26ab")
+		(property "Reference" "TP5"
+			(at 234.95 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 234.95 85.0899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 229.87 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 229.87 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 229.87 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52d1f2e2-87cd-47c7-bfdc-6dd5642d0226")
+		)
+		(instances
+			(project "LoRaZeroHAT"
+				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 31.75 97.79 0)
 		(unit 1)
@@ -5860,7 +6109,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BM04B-SRSS-TB"
+		(property "Value" "SM04B-SRSS-TB"
 			(at 153.67 136.2455 0)
 			(effects
 				(font
@@ -5869,7 +6118,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
 			(at 151.13 133.35 0)
 			(effects
 				(font
@@ -6254,6 +6503,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 229.87 76.2 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bbef909f-1756-441f-81c0-562a24c889c8")
+		(property "Reference" "TP2"
+			(at 234.95 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 234.95 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 229.87 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 229.87 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 229.87 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32dc9a1a-2adc-49fa-8f85-b5d546b5533e")
+		)
+		(instances
+			(project "LoRaZeroHAT"
+				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 219.71 111.76 0)
 		(unit 1)
@@ -6311,6 +6627,73 @@
 			(project "LoRaZeroHAT"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
 					(reference "#PWR33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 229.87 73.66 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "beb307d5-66fb-4db4-8a37-908921ee8f1e")
+		(property "Reference" "TP1"
+			(at 234.95 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 234.95 74.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 229.87 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 229.87 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 229.87 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "244fa572-1f65-456d-9e90-9da61e04213a")
+		)
+		(instances
+			(project ""
+				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -6517,6 +6900,73 @@
 			(project "LoRaZeroHAT"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
 					(reference "#PWR23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 229.87 81.28 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6b8613a-b07b-4d79-86d8-162cd712e301")
+		(property "Reference" "TP4"
+			(at 234.95 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 234.95 82.5499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 229.87 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 229.87 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 229.87 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd081503-1ae4-4a01-90d6-13801ea442ff")
+		)
+		(instances
+			(project "LoRaZeroHAT"
+				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -7157,6 +7607,73 @@
 			(project "RP2040LoRaTracker"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 229.87 78.74 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f38ec256-8b3f-464f-a286-87f6e33f004b")
+		(property "Reference" "TP3"
+			(at 234.95 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 234.95 80.0099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 229.87 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 229.87 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 229.87 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57958d6c-4b9c-49f7-98a4-92efddb0f3e0")
+		)
+		(instances
+			(project "LoRaZeroHAT"
+				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
