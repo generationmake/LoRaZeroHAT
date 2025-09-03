@@ -2832,7 +2832,7 @@
 		(uuid "5518a9de-728e-4b5a-849e-06aa40614719")
 		(at 117.48095 99.73645)
 		(property "Reference" "L2"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "2983fb3a-03c7-4251-8e6c-661928def266")
@@ -2844,7 +2844,7 @@
 			)
 		)
 		(property "Value" "Label"
-			(at 0.75 0 360)
+			(at 0.75 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "cfd2f856-dea7-4f2f-95f6-6af1be54e48c")
@@ -2856,7 +2856,7 @@
 			)
 		)
 		(property "Footprint" "generationmake:generationmake_small_solder"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "47c427fb-4c97-404f-abf5-3a4cd674508e")
@@ -2868,7 +2868,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "afc279c9-be30-438e-ad19-54ae28a910d5")
@@ -2880,7 +2880,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "98e8db81-48c1-4f2d-bc02-e40e69ddbd22")
@@ -10756,6 +10756,19 @@
 			(font
 				(size 1.2 1.2)
 				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "licensed under CERN-OHL-W v2"
+		(at 130.3 95.9 0)
+		(layer "B.SilkS")
+		(uuid "520ca296-4287-43c9-a847-370951255aa5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.25)
 				(bold yes)
 			)
 			(justify left bottom mirror)
