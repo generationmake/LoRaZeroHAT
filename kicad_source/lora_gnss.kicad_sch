@@ -2692,6 +2692,12 @@
 		(uuid "418a5ddd-5792-446c-8919-b2e085ca6490")
 	)
 	(junction
+		(at 115.57 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52f618f1-cb0d-49f4-afd1-1a7c6f2a8edc")
+	)
+	(junction
 		(at 125.73 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2730,6 +2736,10 @@
 		(uuid "56b9099e-4392-4b56-8725-dbb4047d291f")
 	)
 	(no_connect
+		(at 160.02 146.05)
+		(uuid "8582b637-4a81-49f5-b601-5d48d9ca36e0")
+	)
+	(no_connect
 		(at 69.85 81.28)
 		(uuid "afc36132-68a7-46a1-af20-f53dffaefacf")
 	)
@@ -2759,6 +2769,26 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 146.05) (xy 151.13 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c6233f0-45d8-491f-9eaf-433643f8b65d")
+	)
+	(wire
+		(pts
+			(xy 115.57 50.8) (xy 123.19 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ca019a7-bc9c-4795-9574-c39221e23205")
+	)
+	(wire
+		(pts
 			(xy 54.61 26.67) (xy 54.61 27.94)
 		)
 		(stroke
@@ -2776,6 +2806,16 @@
 			(type default)
 		)
 		(uuid "1254b74f-e32f-4e8b-ac34-b3716ecb7bbd")
+	)
+	(wire
+		(pts
+			(xy 160.02 146.05) (xy 151.13 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16368869-e64a-42f8-9086-e448cadf9cb9")
 	)
 	(wire
 		(pts
@@ -2936,6 +2976,16 @@
 			(type default)
 		)
 		(uuid "3da36245-9e4b-446b-8cb0-3e152d337377")
+	)
+	(wire
+		(pts
+			(xy 123.19 50.8) (xy 123.19 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f16199a-50ca-4829-afad-ea71fefe9bf4")
 	)
 	(wire
 		(pts
@@ -3299,6 +3349,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 57.15) (xy 123.19 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd9e58c3-c8ff-46c3-8b87-e3d72812703d")
+	)
+	(wire
+		(pts
 			(xy 195.58 31.75) (xy 195.58 33.02)
 		)
 		(stroke
@@ -3567,6 +3627,26 @@
 		)
 		(uuid "ff630f4c-b6ae-4d13-9566-4b96e91e3f3f")
 	)
+	(text "R12 is only necessary with NEO-6M"
+		(exclude_from_sim no)
+		(at 41.91 81.026 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "03fae966-3e27-4487-b096-2c85c12e6c46")
+	)
+	(text "eeprom is only necessary with NEO-6M"
+		(exclude_from_sim no)
+		(at 37.338 128.016 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "13a1a5b7-dd03-42aa-830c-97e422c236dc")
+	)
 	(text "changes baud rate on NEO-6M"
 		(exclude_from_sim no)
 		(at 125.73 92.964 0)
@@ -3676,6 +3756,16 @@
 			(justify left bottom)
 		)
 		(uuid "0e0d12f5-3ecb-4230-87e9-751206ab0f1d")
+	)
+	(label "MP"
+		(at 153.67 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1800d2c5-3134-4da7-9b06-e56b4313f872")
 	)
 	(label "TIMEPULSE"
 		(at 111.76 81.28 0)
@@ -4845,6 +4935,72 @@
 			(project "LoRaZeroHAT"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
 					(reference "#PWR22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 123.19 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43902e23-4dea-4a76-915b-7dbb91f11716")
+		(property "Reference" "#PWR40"
+			(at 123.19 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 123.19 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 123.19 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1105c0a-2c8d-49b1-a7d4-6f2b119bd1e3")
+		)
+		(instances
+			(project "LoRaZeroHAT"
+				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
+					(reference "#PWR40")
 					(unit 1)
 				)
 			)
@@ -6250,7 +6406,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10R"
 			(at 110.49 48.26 90)
 			(effects
 				(font
@@ -7205,6 +7361,76 @@
 			(project "LoRaZeroHAT"
 				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
 					(reference "#PWR27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 123.19 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d52a01ff-93f6-4923-877c-919fc79a5296")
+		(property "Reference" "C6"
+			(at 125.73 53.3462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100 nF"
+			(at 125.73 55.8862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 123.19 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 123.19 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ae06cd3d-117c-4995-b3e0-a6384371621a")
+		)
+		(pin "1"
+			(uuid "86c1dc1d-4595-41ad-bbfe-2cf8bdd993a2")
+		)
+		(instances
+			(project "LoRaZeroHAT"
+				(path "/143f7a5b-9016-4d2c-b741-f535648590f8/eaeb2dbb-82d1-4bb1-aa6e-4edb004b54b5"
+					(reference "C6")
 					(unit 1)
 				)
 			)

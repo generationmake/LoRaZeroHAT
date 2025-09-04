@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "LoRaZeroHAT")
-		(date "2025-09-02")
+		(date "2025-09-04")
 		(rev "0.1")
 		(company "generationmake")
 	)
